@@ -1,7 +1,30 @@
-.container {
-    display: block;
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
-.container img {
+.google-products {
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-position-x: -132px;
+    background-position-y: -38px;
+    background-size: 528px 68px;
+    opacity: 0.55;
+    height: 30px;
+    width: 30px;
+}
+.google-products:hover {
+    opacity: 0.85;
+}
+.user-image {
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+}
+.middle-container {
+    display: flex;
+    flex-direction: column;
+}
+.middle-container img {
     display: block;
     margin: 0 auto 25px auto;
     width: 272px;
@@ -9,4 +32,20 @@
 }
 .search-bar input {
     margin: auto;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    bottom: 10px;
+}
+.footer-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.footer-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
