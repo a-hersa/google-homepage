@@ -97,6 +97,7 @@ ul {
   }
 .search-glass-container {
     display: flex;
+    margin: auto;
 }
 .search-input-container {
     display: flex;
