@@ -51,15 +51,18 @@ ul {
     opacity: 0.55;
     height: 30px;
     width: 30px;
+    margin: auto;
 }
 .google-products:hover {
     opacity: 0.85;
+}
+.user-link {
+    margin-left: 15px;
 }
 .user-image {
     border-radius: 50%;
     height: 32px;
     width: 32px;
-    padding-left: 15px;
 }
 .user-image:hover {
     opacity: 1;
@@ -79,7 +82,7 @@ ul {
     margin: 0 auto 30px auto;
     border: 1px solid #dfe1e5;
     border-radius: 24px;
-    width: 482px;
+    width: 584px;
     height: 46px;
     box-shadow: none;
     color: #9AA0A6;
@@ -88,17 +91,16 @@ ul {
     box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
     border-color: rgba(223,225,229,0);
 }
+.search-glass-container {
+    display: flex;
+    margin: auto 13px auto 14px;
+}
 .search-bar svg {
     position: initial;
     top: 5px;
     width: 20px;
     fill: grey;
-    margin-left: 15px;
   }
-.search-glass-container {
-    display: flex;
-    margin: auto;
-}
 .search-input-container {
     display: flex;
 }
@@ -110,7 +112,7 @@ ul {
     width: 387px;
     font: 16px arial,sans-serif;
     line-height: 34px;
-    margin: auto auto auto 13px;
+    margin: auto auto auto 0px;
 }
 .search-input:hover {
     border: none;
@@ -123,7 +125,7 @@ ul {
 }
 #search-mic {
     display: flex;
-    margin: auto;
+    margin: auto 16px auto auto;
     height: 24px;
     width: 24px;
 }
