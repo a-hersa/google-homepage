@@ -64,9 +64,6 @@ ul {
     height: 32px;
     width: 32px;
 }
-.user-image:hover {
-    opacity: 1;
-}
 .middle-container {
     display: flex;
     flex-direction: column;
