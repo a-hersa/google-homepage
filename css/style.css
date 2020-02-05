@@ -59,6 +59,9 @@ ul {
 .user-link {
     margin-left: 15px;
 }
+header a.user-link:hover {
+    opacity: 1;
+}
 .user-image {
     border-radius: 50%;
     height: 32px;
